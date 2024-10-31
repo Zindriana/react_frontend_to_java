@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://zindriana.github.io/react_frontend_to_java",
+  "homepage": "https://github.com/Zindriana/react_frontend_to_java",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
