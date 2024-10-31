@@ -4,7 +4,7 @@ function App() {
     const [message, setMessage] = useState('');
 
     useEffect(() => {
-        fetch('https://zindriana.github.io/react_frontend_to_java/')
+        fetch('http://localhost:8080/hello')
             .then(response => response.text())
             .then(data => setMessage(data))
             .catch(error => console.error('Error fetching data:', error));
